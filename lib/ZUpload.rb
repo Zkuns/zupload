@@ -32,7 +32,7 @@ class ZUpload
       nil,
       { bucket: QNConfig::BucketKey }
     )
-    puts result['key']
+    puts QNConfig::RemoteUrl + result['key']
   end
 
   private
