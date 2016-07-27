@@ -1,0 +1,7 @@
+module QNConfig
+  AccessKey = ENV['QNAccessKey']
+  SecretKey = ENV['QNSecretKey']
+  BucketKey = ENV['QNBucketKey']
+  ValidExtension = ENV['QNValidExtension']
+end
+
